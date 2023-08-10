@@ -3,26 +3,7 @@ const btn = document.querySelector('#btn');
 
 const joke = document.querySelector('#joke');
 
-// const options = {
-//     method: 'GET',
-//     headers: { 
-//         'X-Api-Key': 'GYsVrGD1nNYU8RT4S6ZgsRS6UtvrKO6UJoAycfAF'
-//     }
-// }
-
-// const apiURL =  "https://api.api-ninjas.com/v1/dadjokes?limit=1";
-
-// async function getJoke() {
-//     const response = await fetch(apiURL, options);
-//     const data = await response.json();
-
-//     console.log(data);
-// }
-
-// btn.addEventListener('click', getJoke);
-
-
-//Get data Rwquest via Axios
+//Async function and axios to fetch data
  async function fetchData () {
 
     try {
